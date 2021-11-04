@@ -1,0 +1,13 @@
+button.dot {
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin: 0 4px;
+    padding: 0;
+}
+
+button.active {
+    background-color: black;
+}
