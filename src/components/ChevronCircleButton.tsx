@@ -10,7 +10,8 @@ const ArrowRight = (props: IChevronButtonProps) => {
         width: '30px',
         opacity: disabled ? '0.5' : '1',
         transform: leftButton ? 'rotate(180deg)' : 'none',
-        margin: margin ? margin : '0'
+        margin: margin ? margin : '0',
+        cursor: 'pointer'
       }}
       onClick={onClick}
       alt='Next'
